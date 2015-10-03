@@ -2,7 +2,7 @@
 
 set -e
 
-sudo useradd nagios
+#sudo useradd nagios
 
 sudo apt-get update
 sudo apt-get install -y build-essential openssl libssl-dev xinetd
