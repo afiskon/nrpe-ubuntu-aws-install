@@ -9,7 +9,7 @@ sudo apt-get install -y build-essential openssl libssl-dev xinetd
 
 mkdir /tmp/nrpe-buid
 cd /tmp/nrpe-buid
-wget http://iweb.dl.sourceforge.net/project/nagios/nrpe-2.x/nrpe-2.15/nrpe-2.15.tar.gz
+wget http://heanet.dl.sourceforge.net/project/nagios/nrpe-2.x/nrpe-2.15/nrpe-2.15.tar.gz
 tar -xvzf nrpe-2.15.tar.gz
 cd nrpe-2.15/
 
