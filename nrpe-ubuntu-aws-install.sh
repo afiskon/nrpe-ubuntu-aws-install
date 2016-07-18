@@ -2,7 +2,10 @@
 
 set -e
 
-#sudo useradd nagios
+if ! id nagios >/dev/null 2>&1; then
+  echo "Creating user nagios"
+  sudo useradd nagios
+fi
 
 sudo apt-get update
 sudo apt-get install -y build-essential openssl libssl-dev xinetd
